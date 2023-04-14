@@ -7,6 +7,8 @@ body {
   h1 {
     text-align: center;
     margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(141, 12, 12)
   }
   
   form {
