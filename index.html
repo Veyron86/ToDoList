@@ -2,14 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <title>ToDoList</title>
+    <link rel="shortcut icon" href="img/homework.png" href="img/homework.png">
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script defer src="script.js"></script>
+    
   </head>
   <body>
-    <h1>Lista zadań</h1>
+    <div class="header">
+      <img src="./img/logo.png" alt="Logo">
+      <h1>Lista zadań</h1>
+    </div>
+    
+    <p class="paragraph">
+      Lista zadań jest to lista umożliwiająca wyświetlenie zadań jakie chcesz wykonać w określonym czasie. Pozwala na wyświetlania ich za pomocą różnych efektów jak sortowanie czy określanie priorytetów. Więcej szczegółów możesz poczytać na stronie <a href="https://asana.com/resources/make-better-to-do-lists">Asana</a>
+    </p>
+    </p>
     <form id="task-form">
       <input type="text" id="task-input" placeholder="Dodaj nowe zadanie" />
       <button type="submit">Dodaj</button>

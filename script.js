@@ -24,6 +24,13 @@ taskList.addEventListener("click", (e) => {
   if (e.target.classList.contains("complete-button")) {
     const taskItem = e.target.closest(".task-item");
     taskItem.classList.toggle("completed");
+    taskItem.style.background = "green";
+    taskItem.innerHTML = `
+            
+            <div class="task-actions">
+            <button class="complete-button">Wznów</button>
+            <button class="delete-button">Usuń</button>
+            </div>`
   } else if (e.target.classList.contains("delete-button")) {
     const taskItem = e.target.closest(".task-item");
     taskList.removeChild(taskItem);
